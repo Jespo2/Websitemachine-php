@@ -1,0 +1,102 @@
+/* Set font and background color for the entire page */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+/* Set font size and alignment for the page title */
+h1 {
+	font-size: 36px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+/* Style the horizontal line */
+hr {
+	border: none;
+	border-top: 1px solid #ccc;
+	margin: 20px auto;
+	width: 80%;
+}
+
+/* Style the left and right containers */
+.left-container, .right-container {
+	box-sizing: border-box;
+	padding: 20px;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Style the left container */
+.left-container {
+	width: 50%;
+	float: left;
+	border-right: 1px solid #ccc;
+}
+
+/* Style the right container */
+.right-container {
+	width: 50%;
+	float: right;
+	border-left: 1px solid #ccc;
+}
+.right-container img {
+	
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Style the image and title in each container */
+.container {
+	margin: 10px;
+}
+
+.container img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container p {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+}
+
+.title-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.left-title, .right-title {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	width: 50%;
+	box-sizing: border-box;
+}
+.timer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .timer {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+  }
